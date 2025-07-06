@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f3f3f3;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .profile-section {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .profile-photo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin-right: 20px;
+    }
+
+    .intro-text {
+      flex: 1;
+    }
+
+    .intro-text p {
+      font-size: 16px;
+      color: #333;
+      border-bottom: 1px dashed #aaa;
+      padding-bottom: 5px;
+    }
+
+    .project-section {
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .project-section h2 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .project-box {
+      width: 100px;
+      height: 50px;
+      background-color: #ddd;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .form-section {
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    .form-section h2 {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #333;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Name</h1>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Admission</a>
+    </nav>
+  </header>
+
+  <div class="profile-section">
+    <div class="profile-photo"></div>
+    <div class="intro-text">
+      <p>Hello! I am a CSIT student passionate about frontend development.</p>
+    </div>
+  </div>
+
+  <div class="project-section">
+    <h2>Project</h2>
+    <div class="projects">
+      <div class="project-box">Project 1</div>
+      <div class="project-box">Project 2</div>
+      <div class="project-box">Project 3</div>
+    </div>
+  </div>
+
+  <div class="form-section">
+    <h2>Student Detail</h2>
+    <form>
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <input type="tel" placeholder="Phone Number" />
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Your College Name
+  </footer>
+</body>
+</html>

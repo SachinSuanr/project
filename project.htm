@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: darkcyan;
+            text-align: center;
+            color:rgb(104, 23, 32);
+        }
+        nav a{
+            color: rgb(104, 23, 32);
+            font-size: 25px;
+            margin-right: 25px;
+            text-decoration: none;
+        }
+        .about{
+            background-color: cadetblue;
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            padding: 15px;
+            color: brown;
+        }
+
+        img{
+            background-color: bisque;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            margin: 15px;
+        }
+        .project{
+            background-color: rgb(55, 146, 149);
+            color: brown;
+            text-align: center;
+            height: 100px;
+        }
+        .box{
+            text-align: center;
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin-right: 20vh;
+            height: 25px;
+            width: 90px;
+            
+        }
+        .std{
+            padding: 20px;
+           
+            background-color: darkgray;
+            text-align: center;
+            height: 160px;
+        }
+        form{
+           padding: 10px;
+           font-size: 16px;
+           border: 1px solid #aaa;
+           border-radius: 5px;
+           display: flex;
+           flex-direction: column;
+           max-width: 400px;
+           margin: 0 auto;
+           gap: 15px;
+        }
+        footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #333;
+      color: white;
+      margin-top: 30px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sachin Sunar</h1>
+        <div>
+            <nav>
+                <a href="$">About</a>
+                <a href="$">Project</a>
+                <a href="$">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="about">
+             <img src="http://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" alt="Image">
+             <div>
+                <h3>My name is Sachin Sunar.</h3>
+                <h4>Currently I am doing bachelor in CSIT from LCC.I am passionate about learnig python and fullstack.</h4>
+             </div>
+        </div>
+
+        <div class="project">
+            <h2>Project</h2>
+            <div class="box">project1</div>
+            <div class="box">project2</div>
+            <div class="box">project3</div>
+        </div>
+        <div class="std">
+            <h2>Student details</h2>
+            <form>
+                <input type="name" placeholder="Name">
+                <input type="email" placeholder="E-mail">
+                <input type="phone" placeholder="Phone number">
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Your College Name
+    </footer>
+</body>
+</html>

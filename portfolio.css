@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: cadetblue;
+    text-align: center;
+    color: brown;
+    margin-right: 50px;
+    font-size: 30px;
+}
+nav a{
+    color: brown;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 25px;
+}
+img{
+    margin-top: 25px;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+}
+.me{
+    text-align: start;
+    font-size: 30px;
+    color: rgb(45, 59, 86);
+}
+.my{
+    /* text-align: start; */
+    font-size: 15px;
+    color: rgb(39, 53, 79);
+    display: inline-block;
+}
+.box{
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: bisque;
+    height: 150px;
+}
+  .project-container {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center; 
+    color: rgb(4, 3, 3);
+} 
+ 
+.input {
+    background-color: cadetblue;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+}  */
+/* div{
+    background-color: brown;
+} */
